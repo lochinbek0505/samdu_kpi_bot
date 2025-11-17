@@ -14,10 +14,10 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # API sozlamalari
-BASE_URL = "http://185.217.131.207:8001/api"
+BASE_URL = "https://kpirttmapi.samdu.uz/api"
 LOGIN_URL = f"{BASE_URL}/users/loginme/"
 CHATLIST_URL = f"{BASE_URL}/chats/chatlist/"
-WEBAPP_URL = "https://samdu-kpi.web.app/"
+WEBAPP_URL = "https://kpirttm.samdu.uz/"
 
 # Conversation holatlar
 USERNAME, PASSWORD = range(2)
